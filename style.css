@@ -1,14 +1,29 @@
+.center
+{
+	text-align: center;
+}
+
 .flex
 {
-  display:flex;
+  	display:flex;
+}
+
+.info-area
+{
+	width: 70%;
+}
+
+.nav-area
+{
+  	width: 30%;
 }
 
 @media (max-width: 500px)
 {
-  /*Placeholder below as 
-  well as max-width*/
-  p
-  {
-    color:black;
-  }
+  	/*Placeholder below as 
+  	well as max-width*/
+  	p
+  	{
+    	color:black;
+  	}
 }
