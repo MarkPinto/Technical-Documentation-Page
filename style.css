@@ -1,4 +1,14 @@
+.flex
+{
+  display:flex;
+}
+
 @media (max-width: 500px)
 {
-
+  /*Placeholder below as 
+  well as max-width*/
+  p
+  {
+    color:black;
+  }
 }
