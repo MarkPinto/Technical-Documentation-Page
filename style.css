@@ -10,6 +10,11 @@ hr
 	text-align: center;
 }
 
+.element-spacing
+{
+	word-spacing: -3px;
+}
+
 .flex
 {
   	display:flex;
@@ -23,12 +28,12 @@ hr
 
 .info-area
 {
-	width: 70%;
+	width: 75%;
 }
 
 .nav-area
 {
-  	width: 30%;
+  	width: 25%;
 }
 
 .nav-link
