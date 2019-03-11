@@ -12,6 +12,8 @@ hr
 
 .element-spacing
 {
+	/*Used to help properly display
+	HTML elements in documentation*/
 	word-spacing: -3px;
 }
 
