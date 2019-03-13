@@ -10,12 +10,9 @@ hr
 	text-align: center;
 }
 
-.element-spacing
+.html-spacing
 {
-	/*Used to help properly display
-	HTML elements in documentation*/
-	/*Might not need this*/
-	word-spacing: -3px;
+	text-align: initial;
 }
 
 .flex
