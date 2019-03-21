@@ -5,6 +5,13 @@ hr
 	background-color: #000000;
 }
 
+pre 
+{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	text-align: justify;
+}
+
 .center
 {
 	text-align: center;
