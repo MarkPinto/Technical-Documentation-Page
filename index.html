@@ -94,9 +94,55 @@
 
 			        <section class="main-section" id="Adding_Style">
 			            <header class="header-size">Adding Style</header>
-			            <p>Placeholder text</p>
-			            <p>Placeholder text</p>
-			            <code>Placeholder text</code>
+			            <p>HTML is used to organize the content on the page, the content on the page can be further enhanced through styling with the use of CSS which is also known as cascading style sheets. In order to start styling your HTML, start by connecting a sheet to your document using the &lt;link> element in the header as shown below.</p>
+			            <pre>
+			            	<code>
+&lt;!DOCTYPE html>
+&lt;html>
+	&lt;head>
+		&lt;title>My Web Page&lt;/title>
+		&lt;link rel="stylesheet" type="text/css" href="./style.css">
+	&lt;/head>
+	&lt;body>
+		&lt;p>Welcome to my web page&lt;/p>		            		
+	&lt;/body>
+&lt;/html>
+			            	</code>
+			            </pre>
+			            <p>The style element above connects a CSS document named style.css in the same directory as the HTML document. After making this link it's time to make the CSS file. This can be done using the same software mentioned in the getting started section. Let's start by making our paragraph element red. This can be done through two methods, one involves styling all &lt;p> elements and the other involves making use of classes  which let you style more selectively. Lets start by styling all &lt;p> elements.</p>
+			            <pre>
+			            	<code>
+p
+{
+		color: #CCCCFF;
+}
+			            	</code>
+			            </pre>
+			            <p>Now all &lt;p> elements are the color periwinkle. Now let's try using classes, your CSS will not chnage much, we will call our class periwinkle.</p>
+			          	<pre>
+			            	<code>
+.periwinkle
+{
+		color: #CCCCFF;
+}
+			            	</code>
+			            </pre>
+			            <p>As you can see we only replaced the element that was defined which the &lt;p> element and replaced it with a name with a period at the begining. Now in order to selectively style we must add class="periwinkle" within the opening brackets of the element we choose to stlye.</p>
+			            <pre>
+			            	<code>
+&lt;!DOCTYPE html>
+&lt;html>
+	&lt;head>
+		&lt;title>My Web Page&lt;/title>
+		&lt;link rel="stylesheet" type="text/css" href="./style.css">
+	&lt;/head>
+	&lt;body>
+		&lt;p class="periwinkle">Welcome to my web page&lt;/p>		            		
+	&lt;/body>
+&lt;/html>
+			            	</code>
+			            </pre>
+			            <p>That is the basics of CSS, there are many styling options besides color and many other methods to style elements but this will get you up and running.</p>
 			        </section>
 
 			        <section class="main-section" id="Hosting">
