@@ -49,10 +49,17 @@ p, li, code
 	height: 100%
 }
 
+#navbar
+{
+	position: fixed;
+	left: 0;
+	width: 25%;
+}
+
 @media (max-width: 900px)
 {
-  	/*Placeholder below as 
-  	well as max-width*/
+  	/*Makes navbar text fit
+  	on smaller screen sizes*/
   	.header-size
 	{
 		font-size: 1.7em;
